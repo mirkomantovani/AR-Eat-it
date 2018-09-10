@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="drink1" sideLength="0.560000"/>
+        <ImageTarget name="placemat1" size="0.270000 0.213663"/>
+        <ImageTarget name="magazine2" size="0.150000 0.189551"/>
+        <ImageTarget name="magazine1" size="0.150000 0.189551"/>
+        <ImageTarget name="spacecraft3d" size="0.200000 0.266570"/>
+        <ImageTarget name="cube.Top" size="0.700000 0.700000"/>
+        <ImageTarget name="cube.Right" size="0.700000 0.700000"/>
+        <ImageTarget name="cube.Left" size="0.700000 0.700000"/>
+        <ImageTarget name="cube.Bottom" size="0.700000 0.700000"/>
+        <ImageTarget name="cube.Back" size="0.700000 0.700000"/>
+        <ImageTarget name="cube.Front" size="0.700000 0.700000"/>
+        <ImageTarget name="cereal2.Top" size="0.512000 0.256000"/>
+        <ImageTarget name="cereal2.Right" size="0.256000 0.682000"/>
+        <ImageTarget name="cereal2.Left" size="0.256000 0.682000"/>
+        <ImageTarget name="cereal2.Bottom" size="0.512000 0.256000"/>
+        <ImageTarget name="cereal2.Back" size="0.512000 0.682000"/>
+        <ImageTarget name="cereal2.Front" size="0.512000 0.682000"/>
+        <ImageTarget name="cereal.Top" size="0.512000 0.256000"/>
+        <ImageTarget name="cereal.Right" size="0.256000 0.682000"/>
+        <ImageTarget name="cereal.Left" size="0.256000 0.682000"/>
+        <ImageTarget name="cereal.Bottom" size="0.512000 0.256000"/>
+        <ImageTarget name="cereal.Back" size="0.512000 0.682000"/>
+        <ImageTarget name="cereal.Front" size="0.512000 0.682000"/>
+        <MultiTarget name="cube">
+            <Part name="cube.Left" translation="-0.3499999940395355 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cube.Right" translation="0.3499999940395355 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cube.Front" translation="0 0 0.3499999940395355" rotation="AD: 1 0 0 0"/>
+            <Part name="cube.Back" translation="0 0 -0.3499999940395355" rotation="AD: 0 1 0 180"/>
+            <Part name="cube.Top" translation="0 0.3499999940395355 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cube.Bottom" translation="0 -0.3499999940395355 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="cereal2">
+            <Part name="cereal2.Left" translation="-0.25600001215934753 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cereal2.Right" translation="0.25600001215934753 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cereal2.Front" translation="0 0 0.12800000607967377" rotation="AD: 1 0 0 0"/>
+            <Part name="cereal2.Back" translation="0 0 -0.12800000607967377" rotation="AD: 0 1 0 180"/>
+            <Part name="cereal2.Top" translation="0 0.3409999907016754 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cereal2.Bottom" translation="0 -0.3409999907016754 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="cereal">
+            <Part name="cereal.Left" translation="-0.25600001215934753 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cereal.Right" translation="0.25600001215934753 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cereal.Front" translation="0 0 0.12800000607967377" rotation="AD: 1 0 0 0"/>
+            <Part name="cereal.Back" translation="0 0 -0.12800000607967377" rotation="AD: 0 1 0 180"/>
+            <Part name="cereal.Top" translation="0 0.3409999907016754 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cereal.Bottom" translation="0 -0.3409999907016754 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
