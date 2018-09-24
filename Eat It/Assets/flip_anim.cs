@@ -44,8 +44,6 @@ public class flip_anim : MonoBehaviour, IVirtualButtonEventHandler {
                 break;
             default:
                 throw new UnityException("Button not supported: " + vb.VirtualButtonName);
-                break;
-
 
         }
         Debug.Log("pageup button pressed");

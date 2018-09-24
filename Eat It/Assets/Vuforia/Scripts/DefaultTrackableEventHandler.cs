@@ -59,9 +59,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
-        {
+        {   
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
+
+            //Added by Mirko
+            placemattrigger.onLostTrackableSignal(mTrackableBehaviour);
         }
         else
         {

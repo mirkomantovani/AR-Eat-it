@@ -61,9 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\cashire_btn_anim.cs" />
+    <Compile Include="Assets\collidertrigger.cs" />
+    <Compile Include="Assets\collision.cs" />
     <Compile Include="Assets\flip_anim.cs" />
     <Compile Include="Assets\page_up.cs" />
+    <Compile Include="Assets\placemattrigger.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
